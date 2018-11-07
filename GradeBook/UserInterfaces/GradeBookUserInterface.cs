@@ -4,7 +4,7 @@ using System;
 
 namespace GradeBook.UserInterfaces
 {
-    public static class GradeBookUserInterface
+    abstract class GradeBookUserInterface
     {
         public static BaseGradeBook GradeBook;
         public static bool Quit = false;
